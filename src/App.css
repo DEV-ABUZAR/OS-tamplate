@@ -1,38 +1,335 @@
-.App {
-  text-align: center;
+/* NAVBAR CSS */
+
+body {
+  background-image: url('/public/bh2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header{
+  padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav{
+  margin-top: 50px;
+ 
 }
+.Heading_main{
+  font-family: lora;
+  color: white;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.headin_sm{
+  font-size: 1rem;
+  color: gray;
+  font-family: lora;
+  margin-top: -41px;
+}
+.me-auto{
+  width: 100%;
+  justify-content: right;
+  font-family: lora;
+  font-size: 20px;
+}.Nav_items{
+  padding-left: 26px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Nav_items:hover{
+  background-color: rgb(127, 219, 127);
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+ .Nav_items Nav-Likn{
+  color: white;
+}
+ /* section2 css */
+ .hor{
+  padding-top: 120px;
+  padding-left: 166PX;
+  
+ }
+ .text-1{
+  font-family: lora;
+  color: rgb(255, 250, 250);
+ }
+ .text-2{
+  font-family: lora;
+  width: 80%;
+  color: gray;
+ }
+ .round{
+  height: 55%;
+  border-radius: 50%;
+ padding-top: 10px;
+    width: 73%;
+ }
+ .Readbtn{
+  border: none;
+  background-color: rgb(127, 219, 127);
+  border-radius: 10px;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-family: lora;
+
+
+ }
+ 
+
+
+
+
+
+
+
+
+ /* cards css */
+ .c-class{
+  width: 14rem;
+ 
+ }
+.card-text{
+  color: gray;
+  font-family: lora;
+  font-size: 20px;
+}
+.name{
+  color: rgb(127, 219, 127);
+  font-family: lora;
+  
+}
+.card-text::first-word {
+  color: rgb(127, 219, 127) ;
+}
+.card-inputs{
+  margin-bottom: 20px;
+    background: #5a5555;
+    font-family: lora;
+    border-radius: 8px;
+  padding: 10px;
+    border: none;
+}
+.card-inputts{
+  padding-bottom: 85px;
+  margin-bottom: 20px;
+  background: #5a5555;
+  font-family: lora;
+  border-radius: 8px;
+  
+  width: 213px;
+  padding-top: 10px;
+  padding-left: 12px;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* cards @media */
+ @media (min-width: 768px) and (max-width: 991px) {
+  .c-class{
+    width: 20rem;
+    padding-left: 45px;
+
+    
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 495px) and (max-width: 767px) {
+  .c-class{
+    width: 30rem;
+    padding-left: 45px;
+
+    
   }
+}
+
+@media (min-width: 325px) and (max-width: 495px) {
+  .c-class{
+    width: 20rem;
+    padding-left: 45px;
+
+    
+  }
+}
+@media (min-width: 300px) and (max-width: 1199px) {
+  .work{
+  
+    padding-left: 50px;
+
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* cards css */
+.ball{
+  height: 100px;
+  width: 100px;
+  margin-left: 40px;
+}
+
+.lg-text{
+  font-family: lora;
+  font-size: 38px;
+  padding-left: 22px;
+    padding-bottom: 41px;
+
+}
+.sm-text{
+  font-family: lore;
+  color: gray;
+}
+.lg-text:hover{
+  color: white;
+}
+.sm-text:hover{
+  color: wheat;
+}
+.main{
+  padding-top: 20px;
+}
+.main:hover{
+  background-color:  rgb(127, 219, 127);
+  cursor: pointer;
+
+}
+.line{
+  width: 40%;
+  opacity: 100%;
+  color: black;
+  
+  
+  
+}
+.work{
+  font-family: lora;
+  font-size: 20px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  border-radius: 10px;
+}
+.mid{
+  margin-top: 60px;
+  display: flex;
+  padding-bottom: 42px;
+}
+  
+
+.imgs{
+  border: 5px solid white;
+  border-radius: 7px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.imgs:hover{
+  border: 5px solid rgb(127, 219, 127);
+
+  cursor: pointer;
+}
+.imgss{
+  border: 5px solid white;
+  border-radius: 7px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.imgss:hover{
+  border: 5px solid rgb(127, 219, 127);
+
+  cursor: pointer;
+}
+
+/* images @media */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .imgss{
+  margin-left: 168px;
+
+    
+  }
+}
+@media (min-width: 430px) and (max-width: 768px) {
+  .imgss{
+  margin-left: 116px;
+
+    
+  }
+}
+@media (min-width: 430px) and (max-width: 768px) {
+  .imgs{
+  margin-left: 116px;
+
+    
+  }
+}
+@media (min-width: 500px) and (max-width: 767px) {
+  .ball{
+    
+    margin-left: 120px;
+
+    
+  }
+}
+
+
+/* footer css */
+
+.f-main{
+  background: rgb(71, 69, 69);
+}
+.blog-post{
+  color: white;
+  font-size: 26px;
+    padding-bottom: 34px;
+    font-family: lora;
+}
+.p-title{
+  color: rgb(127, 219, 127);
+  font-size: 13px;
+
+    font-family: lora;
+}
+.admin{
+  font-family: lora;
+  color: rgb(127, 219, 127);
+}
+.date{
+  font-family: lora;
+  color: gray;
+}
+.readmore{
+  color: rgb(127, 219, 127) ;
+  font-family: lora;
+  padding-top: 20px;
+}
+.card2{
+  color: rgb(127, 219, 127) ;
+font-size: 18px;
+  font-family: lora;
+
+}
+hr{
+  width: 200px;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: -25;
+}
+.namehere{
+    color: rgb(127, 219, 127) ;
+
 }
